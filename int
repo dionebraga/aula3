@@ -1,0 +1,12 @@
+idade = int(input("Digite sua idade"))
+
+idade = 18
+
+
+if idade >= 18:
+    print("Maior de Idade")
+
+
+cidade = "Ilhabela"
+    if cidade == 'Ilhabela' and idade >= 18:
+        print("Caiçara de Ilhabela")

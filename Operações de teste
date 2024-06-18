@@ -1,0 +1,20 @@
+# Solicita ao usuário um valor
+import math
+
+
+valor = float(input("Insira um valor: "))
+
+# Calcula os resultados
+dobro = valor * 2
+triplo = valor * 3
+quadrado = valor ** 2
+raiz_quadrada = math.sqrt(valor)
+raiz_cubica = valor ** (1/3)
+
+# Exibe os resultados
+print(f"Primeiro output (dobro do valor): {dobro}")
+print(f"Segundo output (triplo do valor): {triplo}")
+print(f"Terceiro output (valor ao quadrado): {quadrado}")
+print(f"Quarto output (raiz quadrada do valor): {raiz_quadrada:.2f}")
+print(f"Quinto output (raiz cúbica do valor): {raiz_cubica:.2f}")
+
