@@ -1,5 +1,5 @@
 # Solicita o valor da compra ao cliente
-valor_compra = float(input("Digite o valor total da sua compra: R$ "))
+valor_compra = float(input(" Olá, Bem vindos a FashionStyle! Digite o valor total da sua compra: R$ "))
 
 # Verifica os critérios de desconto e imprime as mensagens correspondentes
 if valor_compra > 500:
