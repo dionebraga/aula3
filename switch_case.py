@@ -1,19 +1,12 @@
 
-time = input("digite seu time")
+time = input("Digite seu time: ")
 
-match time: 
+match time:
     case "Corinthians":
-
-print("Você é um Timão")
-
+        print("Você é um Timão")
     case "Bahia":
-
-print("Você é Esquadrão")
-
+        print("Você é Esquadrão")
     case "Grêmio":
-
-print("Vocé é imortal")
-
+        print("Você é imortal")
     case _:
-
-print("Quem não é não se mete")
+        print("Quem não é não se mete")
